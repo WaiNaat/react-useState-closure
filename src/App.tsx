@@ -1,9 +1,10 @@
 import { useState } from 'react';
 
 import './App.css';
+import FakeReact from './FakeReact';
 
 function App() {
-  const [myCount, setMyCount] = useState(0);
+  const [myCount, setMyCount] = FakeReact.useState(0);
   const [yourCount, setYourCount] = useState(0);
 
   return (
